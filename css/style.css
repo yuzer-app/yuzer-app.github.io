@@ -1,0 +1,50 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: white;
+}
+.site-header a {
+  color: #33393F;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #33393F;
+  text-decoration: none;
+}
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: 0px 0px 6px #E5CFD0;
+}
+
+#pagetop{
+  background-image: url("../assets/Triangle.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.topmargin1{
+  margin-top: 10%;
+}
+
+.topmargin2{
+  margin-top: 20%;
+}
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
