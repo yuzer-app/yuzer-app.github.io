@@ -39,6 +39,9 @@ body {
   padding-bottom: 0;
   box-shadow: 0px 0px 6px #E5CFD0;
 }
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
 
 #cover::before {
   background: #F8F9FA;
