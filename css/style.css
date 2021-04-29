@@ -45,6 +45,7 @@ footer .text-muted, footer {
   padding-top: 0;
   padding-bottom: 0;
   box-shadow: 0px 0px 6px #E5CFD0;
+  background-color: #070519;
 }
 .navbar-nav .dropdown-menu {
   position: absolute;
