@@ -3,7 +3,7 @@ body {
 }
 
 footer .text-muted, footer {
-  color: #14022B!important;
+  color: #070519!important;
 }
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -34,11 +34,11 @@ footer .text-muted, footer {
   background-color: white;
 }
 .site-header a {
-  color: #14022B;
+  color: #33393F;
   transition: color .15s ease-in-out;
 }
 .site-header a:hover {
-  color: #14022B;
+  color: #33393F;
   text-decoration: none;
 }
 .navbar{
@@ -66,7 +66,7 @@ footer .text-muted, footer {
 
 #cover{
   /* background-image: linear-gradient(130deg, #FDB040, #8A1F68); */
-  background-color: #14022B;
+  background-color: #070519;
   overflow: hidden;
   z-index: 1000;
 }
@@ -77,7 +77,7 @@ footer .text-muted, footer {
 
 #bienvenue {
   /* background-image: linear-gradient(130deg, #FDB040, #8A1F68); */
-  background-color: #14022B!important;
+  background-color: #070519!important;
   overflow: hidden;
   color :white;
 }
