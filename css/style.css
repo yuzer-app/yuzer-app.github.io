@@ -1,5 +1,9 @@
 body {
-  font-family: "Roboto", system-ui;
+  font-family: "Lato", system-ui;
+}
+
+footer .text-muted, footer {
+  color: #070519!important;
 }
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -12,6 +16,9 @@ body {
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
+  }
+  .logocenter img {
+    height : 250px;
   }
 }
 
@@ -58,7 +65,8 @@ body {
 }
 
 #cover{
-  background-image: linear-gradient(130deg, #FDB040, #8A1F68);
+  /* background-image: linear-gradient(130deg, #FDB040, #8A1F68); */
+  background-color: #070519;
   overflow: hidden;
   z-index: 1000;
 }
@@ -68,9 +76,10 @@ body {
 }
 
 #bienvenue {
-  background-image: linear-gradient(130deg, #FDB040, #8A1F68);
+  /* background-image: linear-gradient(130deg, #FDB040, #8A1F68); */
+  background-color: #070519!important;
   overflow: hidden;
-  color :#33393F;
+  color :white;
 }
 
 /*
@@ -88,5 +97,8 @@ body {
 @media (max-width: 768px) {
   #cover::before{
     background-color: transparent;
+  }
+  .logocenter img {
+    height : 80px;
   }
 }
