@@ -1,9 +1,15 @@
 body {
-  font-family: "Lato", system-ui;
+  font-family: 'Lato', system-ui;
 }
 
-footer .text-muted, footer {
-  color: #070519!important;
+.navbar-bg-yuzer {
+  background-color: #070519;
+  box-shadow: 0px 0px 6px #070519;
+}
+
+footer .text-muted,
+footer {
+  color: #070519 !important;
 }
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -18,7 +24,7 @@ footer .text-muted, footer {
     font-size: 3.5rem;
   }
   .logocenter img {
-    height : 250px;
+    height: 250px;
   }
 }
 
@@ -34,25 +40,16 @@ footer .text-muted, footer {
   background-color: white;
 }
 .site-header a {
-  color: #33393F;
-  transition: color .15s ease-in-out;
+  color: #33393f;
+  transition: color 0.15s ease-in-out;
 }
 .site-header a:hover {
-  color: #33393F;
+  color: #33393f;
   text-decoration: none;
-}
-.navbar{
-  padding-top: 0;
-  padding-bottom: 0;
-  box-shadow: 0px 0px 6px #E5CFD0;
-  background-color: #070519;
-}
-.navbar-nav .dropdown-menu {
-  position: absolute;
 }
 
 #cover::before {
-  background: #F8F9FA;
+  background: #f8f9fa;
   bottom: 100%;
   content: '';
   display: block;
@@ -65,22 +62,23 @@ footer .text-muted, footer {
   z-index: 0;
 }
 
-#cover{
+#cover {
   /* background-image: linear-gradient(130deg, #FDB040, #8A1F68); */
   background-color: #070519;
   overflow: hidden;
   z-index: 1000;
 }
 
-#cover > div, #cover > div::after {
+#cover > div,
+#cover > div::after {
   z-index: 1001;
 }
 
 #bienvenue {
   /* background-image: linear-gradient(130deg, #FDB040, #8A1F68); */
-  background-color: #070519!important;
+  background-color: #070519 !important;
   overflow: hidden;
-  color :white;
+  color: white;
 }
 
 /*
@@ -96,10 +94,10 @@ footer .text-muted, footer {
   }
 }
 @media (max-width: 768px) {
-  #cover::before{
+  #cover::before {
     background-color: transparent;
   }
   .logocenter img {
-    height : 80px;
+    height: 80px;
   }
 }
