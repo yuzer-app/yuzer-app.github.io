@@ -1,87 +1,303 @@
-<!doctype html>
-  <html lang="en" class="h-100"></html>
+<!DOCTYPE html>
+<html lang="en" class="h-100">
   <head>
     <title>Yuzer</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Yuzer - The Customer centric ERP">
-    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="ERP moderne, efficace et interconnecté, Yuzer est un logiciel SaaS collaboratif, digital et mobile." />
+    <link rel="icon" href="favicon.ico" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"
-    />
-    <link href="../css/style.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/home.css" rel="stylesheet" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    /> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
     ></script>
-    <script src="../js/main.js"></script>
+    <script defer src="../assets/fontawesome/js/all.min.js"></script>
+    <!-- <script src="../js/main.js"></script> -->
   </head>
   <body>
-      <header class="site-header sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand mx-auto" href="index.html"><img src="../assets/full_logo.png" alt="" height="50" class="d-inline-block align-middle" /></a>
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropDownMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  FR
-                </a>
-                <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="dropDownMenu">
-                  <li><a class="dropdown-item" href="../EN/index.html">EN</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <main>
-        <div class="position-relative d-md-flex flex-md-equal w-100 mb-3 bg-light vh-100" id="cover">
-            <div class="p-5 align-self-center">
-              <h3 class="display-6">L'ERP centré sur les Utilisateurs</h3>
-              <p class="lead fw-normal">Le compagnon parfait pour vos concessions automotives.</p>
-              <a class="btn btn-outline-secondary" href="#">Nous Contacter</a>
-            </div>
-            <div class="ms-auto p-2 align-self-center"><img src="../assets/Dashboard.png" alt="" class="img-fluid d-inline-block rounded"/></div>
+    <nav class="navbar navbar-dark navbar-bg-yuzer navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto p-0 m-0" href="#">
+          <img src="../assets/logo-center.png" alt="" height="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+          <div></div>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tarifs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">La société</a>
+            </li>
+          </ul>
         </div>
-        <div id="features">
-          <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-3 text-center overflow-hidden">
-              <div class="my-3 p-3">
-                <h2 class="display-6">Ventes</h2>
-                <p class="lead">Simplifier les ventes et garder le contrôle sur les stocks et les comptabilitée.</p>
-              </div>
-              <div class="shadow-sm mx-auto"><img src="../assets/VehicleSale.png" alt="" width="409" class="img-fluid rounded mx-auto d-block"/></div>
-            </div>
-            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-3 text-center overflow-hidden">
-              <div class="my-3 p-3">
-                <h2 class="display-6">Atelier</h2>
-                <p class="lead">Améliorer l'éfficacité et le suivi des plannings et gagner en productivité.</p>
-              </div>
-              <div class="shadow-sm mx-auto"><img src="../assets/Planning.png" alt="" width="409" class="img-fluid rounded mx-auto d-block"/></div>
-            </div>
-            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-3 text-center overflow-hidden">
-              <div class="my-3 p-3">
-                <h2 class="display-6">Pièces</h2>
-                <p class="lead">Controlez facilement vos stocks de Pièces et Accessoires.</p>
-              </div>
-              <div class="shadow-sm mx-auto"><img src="../assets/Parts.png" alt="" width="409" class="img-fluid rounded mx-auto d-block"/></div>
-            </div>
+      </div>
+    </nav>
+    <div class="container-xxl">
+      <div class="text-white title-image-back">
+        <div class="w-100 pt-2">
+          <div class="col-md-6 mx-auto text-center">
+            <h1 class="pb-3 m-0">Le logiciel des entreprises de la mobilité</h1>
           </div>
         </div>
-      </main>
-      <footer class="container py-5">
-        <div class="row">
-          <div class="col-6 col-md">
-            <img src="../assets/logo.png" alt="" width="46" height="50" class="d-inline-block align-middle" /> Yuzer
-            <small class="d-block mb-3 text-muted">© 2018–2021</small>
+        <div style="min-height: 25rem">
+          <div class="col-sm-10 col-md-6 col-lg-5 mx-auto text-center pt-5 mb-2">
+            ERP moderne, efficace et interconnecté, Yuzer est le lien qui fluidifie l’ensemble de vos process, de vos fournisseurs à vos
+            clients en passant par vos opérations internes et externes.
           </div>
-          <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="link-secondary" href="../privacy-policy.html">Privacy Policy</a></li>
-            </ul>
+          <div class="col-sm-10 col-md-8 col-lg-6 mx-auto text-center pt-5 mb-4">
+            <button class="btn btn-primary" type="button">N’attendez pas demain passez dans le futur</button>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-5 mx-auto text-center pt-5 mb-2">
+            <img src="../assets/laptop.webp" width="100%" />
           </div>
         </div>
-      </footer>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-5 col-md-4 col-lg-3 ml-auto pt-5">
+          <h2>Emmenez Yuzer partout avec vous</h2>
+          <div>
+            L’application compagnon vous permet d’effectuer toutes vos tâches mobiles, de l’accès à vos tâches aux photo-expertises en
+            passant par vos inventaires ou réceptions de stock Yuzer vous accompagne.
+          </div>
+        </div>
+        <div class="col-sm-auto col-md-1 col-lg-1"></div>
+        <div class="col-sm-5 col-md-4 col-lg-3 mr-auto">
+          <img src="../assets/phone.webp" width="100%" />
+        </div>
+      </div>
+      <div class="row mt-5 align-content-center">
+        <div class="col-sm-5 col-md-4 col-lg-3 ml-auto pt-3">
+          <img src="../assets/cloud.webp" width="100%" />
+        </div>
+        <div class="col-sm-auto col-md-1 col-lg-1"></div>
+        <div class="col-sm-5 col-md-4 col-lg-3 mr-auto">
+          <h2>La seule véritable solution SaaS du marché</h2>
+          <div>
+            Plus de serveur, une solution toujours à jour automatiquement, c’est autant de temps que vous allez dédier à votre succès.<br />
+            Une vrai solution SaaS c'est aussi une utilisation raisonnée de la bande passante, pour que l'application soit toujours
+            réactive.
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-10 col-md-9 col-lg-7 mx-auto pt-5">
+          <h2>Un logiciel ou toutes les fonctionalités sont intégrés sans modules, sans mauvaises surprises</h2>
+        </div>
+      </div>
+      <div
+        class="row mt-2"
+        style="
+          --fa-primary-opacity: 1;
+          --fa-secondary-opacity: 1;
+          --fa-primary-color: var(--primary);
+          --fa-secondary-color: var(--secondary);
+        "
+      >
+        <div class="col-sm-10 col-md-9 col-lg-7 mx-auto pt-2">
+          <div class="row">
+            <div class="col">
+              <h2>
+                <i class="fa-duotone fa-handshake"></i>
+              </h2>
+              <div>Gestion client</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-envelope"></i></h2>
+              <div>Email/Sms</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-phone"></i></h2>
+              <div>Téléphonie</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-calendar-days"></i></h2>
+              <div>Planning/Agenda</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-wrench"></i></h2>
+              <div>Atelier</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h2><i class="fa-duotone fa-dollar"></i></h2>
+              <div>Ventes</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-cash-register"></i></h2>
+              <div>Caisse</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-file-invoice"></i></h2>
+              <div>Facturation</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-chart-line-up"></i></h2>
+              <div>Statistiques</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-cubes"></i></h2>
+              <div>Catalogues</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h2><i class="fa-duotone fa-warehouse-full"></i></h2>
+              <div>Stock produits</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-warehouse-full"></i></h2>
+              <div>Stock véhicules</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-warehouse-full"></i></h2>
+              <div>Inventaires</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-warehouse-full"></i></h2>
+              <div>Réceptions</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-link"></i></h2>
+              <div>Intégrations</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-5 col-md-4 col-lg-3 ml-auto pt-5">
+          <div>CUSTOMER FEEDBACK TODO</div>
+        </div>
+        <div class="col-sm-auto col-md-1 col-lg-1"></div>
+        <div class="col-sm-5 col-md-4 col-lg-3 mr-auto">
+          <img src="../assets/phone.webp" width="100%" />
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-5 col-md-4 col-lg-3 mx-auto pt-5">
+          <h2>Pour les utilisateurs par les utilisateurs</h2>
+          <div>
+            Nous avons construit pour vous un logiciel qui épouse les besoins du métier en nous appuyant sur l’expérience de concessionaires
+            moto / vélo / spécialistes de l’accessoire.
+          </div>
+        </div>
+        <div class="col-sm-5 col-md-5 col-lg-4"></div>
+      </div>
+
+      <div
+        class="row mt-2 mb-4"
+        style="
+          --fa-primary-opacity: 1;
+          --fa-secondary-opacity: 1;
+          --fa-primary-color: var(--primary);
+          --fa-secondary-color: var(--secondary);
+        "
+      >
+        <div class="col-sm-10 col-md-9 col-lg-7 mx-auto pt-2">
+          <div class="row">
+            <div class="col">
+              <h2>
+                <i class="fa-duotone fa-puzzle"></i>
+              </h2>
+              <div>
+                Collaboratif, créez des tâches assignez les laissez vous des messages directement là ou cela importe et accédez aux
+                informations en un click.
+              </div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-folder-open"></i></h2>
+              100% digital:
+              <ul style="padding-inline-start: 15px">
+                <li>vos documents dématérialisés là ou ils importent (fiche client, dossiers).</li>
+                <li>signature électronique au point de vente.</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-laptop-mobile"></i></h2>
+              <div>Multi-contexte / Multi-device. Passez d’un client à l’autre, reprenez ce que vous aviez commencé sur votre mobile.</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-phone"></i></h2>
+              <div>Intégration téléphonie pour accéder en un click au contact qui vous appelle et garder l’historique.</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h2><i class="fa-duotone fa-circle-dollar"></i></h2>
+              <div>Gestion unique des cessions, bonus et coûts pour une marge au plus proche de la réalité.</div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-warehouse-full"></i></h2>
+              <div>
+                Bien gérer un stock nécessite un outil simple. De la réservation client au niveau de stock tout est visible en un clin
+                d’oeil.
+              </div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-wrench"></i></h2>
+              <div>
+                L’atelier et la vente sont toujours synchronisés. Une pièce ajoutée, facturez là ou remisées là mais ne perdez jamais
+                l’information en chemin.
+              </div>
+            </div>
+            <div class="col">
+              <h2><i class="fa-duotone fa-camera"></i></h2>
+              <div>Une photo expertise pour chaque étape, réception de véhicule, travaux en cours, reprises, dossiers assurances...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="navbar-bg-yuzer text-white d-flex p-4">
+      <div class="col-3 col-md">
+        <img src="../assets/logo-center.png" alt="" height="24" />
+        <div></div>
+      </div>
+      <div class="col-3 col-md"></div>
+      <div class="col-3 col-md">
+        <ul class="list-unstyled">
+          <li><a class="text-white" href="support.html"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+          <li><a class="text-white" href="privacy-policy.html"><i class="fa-brands fa-twitter"></i> Twitter</li>
+        </ul>
+      </div>
+      <div class="col-3 col-md">
+        <h5>À propos</h5>
+        <ul class="list-unstyled small">
+          <li><a class="text-secondary" href="support.html">Information support</a></li>
+          <li><a class="text-secondary" href="privacy-policy.html">Politique de confidentialité</a></li>
+        </ul>
+
+        <small class="d-block mb-3">YUZER</small>
+        <small class="d-block mb-3">© 2018–2022</small>
+      </div>
+    </footer>
   </body>
 </html>
